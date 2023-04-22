@@ -442,6 +442,7 @@ GameObject:
   m_Component:
   - component: {fileID: 235050264}
   - component: {fileID: 235050265}
+  - component: {fileID: 235050266}
   m_Layer: 0
   m_Name: pies
   m_TagString: Untagged
@@ -480,6 +481,18 @@ CircleCollider2D:
   m_Offset: {x: 0, y: -0.35749307}
   serializedVersion: 2
   m_Radius: 0.080554955
+--- !u!114 &235050266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 235050263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cac35fd7ec8d3a24c91f4a90b4304413, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &336481219
 GameObject:
   m_ObjectHideFlags: 0
@@ -2927,10 +2940,10 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 0.03
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 18
+  m_GravityScale: 1
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -3053,9 +3066,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a8e71e77ddce2f4aa4bdcb2f2cae687, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  runSpeed: 2
-  jumpSpeed: 100
-  betterJummp: 0
+  runSpeed: 3
+  jumpSpeed: 6
+  betterJummp: 1
   fallMultiplier: 0.5
   lowJumpMultiplier: 1
   spriteRenderer: {fileID: 1638811445}
