@@ -55,7 +55,7 @@ public class PlayerMovement : MonoBehaviour
         {
             rb2D.velocity = new Vector2(0, rb2D.velocity.y);
         }
-        
+        //Working fli pmovement
         h = Input.GetAxis("Horizontal");
         if(h < 0 && !lado){
             lado = !lado;
