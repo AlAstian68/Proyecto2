@@ -91,7 +91,7 @@ public class PlayerMovement : MonoBehaviour
         if(Input.GetButton("Jump") && !jump){
             jump = true;
             rb2D.AddForce(new Vector2(0f, jumpSpeed));
-        
+        //commit
         }*/
         /*
         
