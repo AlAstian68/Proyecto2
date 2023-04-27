@@ -7,6 +7,7 @@ public class anim_time : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //puchear cambios a main
         
     }
 
