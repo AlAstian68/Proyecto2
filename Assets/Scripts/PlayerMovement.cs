@@ -142,10 +142,4 @@ public class PlayerMovement : MonoBehaviour
             Time.timeScale = 0f;
         }
     }
-        /*if(other.gameObject.tag == "flag"){
-            Debug.Log("Ganaste!");
-            //popups.enabled = true;
-            Time.timeScale = 0f;
-        }
-    }*/
 }
